@@ -1,0 +1,160 @@
+.header {
+  background-color: #343744;
+  height: 56px;
+  color: #b7bad4;
+  box-shadow: 0 0 10px #313157;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &_logo {
+    height: 48px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+
+    & img {
+      width: 136px;
+      height: 24px;
+    }
+
+    & h1 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+
+  &_search_cont {
+
+  }
+
+  &_feed, &_music {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #3d5271;
+    }
+
+    & svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &_prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 35px;
+
+    &_nav {
+      display: none;
+      position: absolute;
+      top: 25px;
+      transition: .3s;
+
+      & li {
+        margin: 15px 15px;
+        transition: .4s;
+
+        &:hover {
+          color: #d4d6e7;
+          font-weight: 600;
+        }
+
+      }
+
+      &:hover{
+        display: flex;
+      }
+    }
+
+    &_name {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &_logo {
+      width: 32px;
+      height: 32px;
+      margin: 0 25px;
+
+      & img {
+        border-radius: 50%;
+      }
+    }
+
+    &_open_nav_btn {
+      height: 20px;
+      width: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background-color: #3d5271;
+      }
+
+      &:hover .header_prof_nav {
+        display: flex;
+        background-color: #393e55;
+        //padding: 15px;
+        color: #b7bad4;
+        box-shadow: 0 0 10px #313157;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+
+.header_prof_logo_btn_cont {
+  display: flex;
+  align-items: center;
+}
+
+.dis_b {
+  display: block;
+}
+
+.dis_n {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

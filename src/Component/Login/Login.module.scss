@@ -1,0 +1,106 @@
+.login_main_container {
+  padding: 40px;
+  background-color: #343744;
+  box-shadow: 0 0 10px #313157;
+  color: #b7bad4;
+  border-radius: 5px;
+}
+
+.login_form_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 60vh;
+
+  & h1 {
+    font-size: 40px;
+  }
+}
+
+.remember_me {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & p {
+    margin-left: 5px;
+  }
+
+  & input {
+    width: 0;
+    height: 0;
+    border: 2px dotted #00f;
+    background: #343744;
+    cursor: pointer;
+    border-radius: 50%;
+    //&:before {
+    //  position: relative;
+    //  left: 0;
+    //  top: -10px;
+    //  display: block;
+    //  width: 25px;
+    //  height: 25px;
+    //  border: 1px solid #808080;
+    //  content: "";
+    //  background: #FFF;
+    //  border-radius: 50%;
+    //
+    //}
+
+    &:after {
+      display: block;
+      position: relative;
+      left: 0;
+      bottom: 15px;
+      width: 25px;
+      height: 25px;
+      border: 1px solid #072b72;
+      content: "";
+      background: linear-gradient(135deg, #bec4c9 0%, #c3d1db 100%);
+      border-radius: 50%;
+
+    }
+
+    &:checked:after {
+      background: linear-gradient(135deg, #3152b4 0%, #061d68 100%);
+    }
+
+    &:disabled:after {
+      -webkit-filter: opacity(0.4);
+    }
+
+    &:not(:disabled):checked:hover:after {
+      background: linear-gradient(135deg, #3152b4 0%, #1a4aef 100%);
+    }
+
+    //&:not(:disabled):hover:after {
+    //  background-image: linear-gradient(135deg, #8BB0C2 0%, #FFF 100%);
+    //  border-color: #85A9BB #92C2DA #92C2DA #85A9BB;
+    //}
+
+  }
+}
+
+.login_button {
+  padding: 15px 25px;
+  background-color: #1c2a3b;
+  color: #b7bad4;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error_alert {
+  position: fixed;
+  top: 85px;
+  right: 30px;
+  background-color: #c42525;
+  padding: 20px;
+  min-width: 100px;
+  border-radius: 10px;
+}
+
