@@ -3,13 +3,13 @@
     "main.css": "/MAMBIKDEMO/static/css/main.e4afada5.chunk.css",
     "main.js": "/MAMBIKDEMO/static/js/main.7c2675e0.chunk.js",
     "main.js.map": "/MAMBIKDEMO/static/js/main.7c2675e0.chunk.js.map",
-    "runtime-main.js": "/MAMBIKDEMO/static/js/runtime-main.3a9a905f.js",
-    "runtime-main.js.map": "/MAMBIKDEMO/static/js/runtime-main.3a9a905f.js.map",
+    "runtime-main.js": "/MAMBIKDEMO/static/js/runtime-main.a7b061c4.js",
+    "runtime-main.js.map": "/MAMBIKDEMO/static/js/runtime-main.a7b061c4.js.map",
     "static/js/2.b4ed513e.chunk.js": "/MAMBIKDEMO/static/js/2.b4ed513e.chunk.js",
     "static/js/2.b4ed513e.chunk.js.map": "/MAMBIKDEMO/static/js/2.b4ed513e.chunk.js.map",
     "static/css/3.5ecc0d9d.chunk.css": "/MAMBIKDEMO/static/css/3.5ecc0d9d.chunk.css",
-    "static/js/3.09aadce1.chunk.js": "/MAMBIKDEMO/static/js/3.09aadce1.chunk.js",
-    "static/js/3.09aadce1.chunk.js.map": "/MAMBIKDEMO/static/js/3.09aadce1.chunk.js.map",
+    "static/js/3.a1773bb3.chunk.js": "/MAMBIKDEMO/static/js/3.a1773bb3.chunk.js",
+    "static/js/3.a1773bb3.chunk.js.map": "/MAMBIKDEMO/static/js/3.a1773bb3.chunk.js.map",
     "static/css/4.d43f280e.chunk.css": "/MAMBIKDEMO/static/css/4.d43f280e.chunk.css",
     "static/js/4.f37bbdf1.chunk.js": "/MAMBIKDEMO/static/js/4.f37bbdf1.chunk.js",
     "static/js/4.f37bbdf1.chunk.js.map": "/MAMBIKDEMO/static/js/4.f37bbdf1.chunk.js.map",
@@ -24,7 +24,7 @@
     "static/media/squishi_big.jpg": "/MAMBIKDEMO/static/media/squishi_big.41aa6f3c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a9a905f.js",
+    "static/js/runtime-main.a7b061c4.js",
     "static/js/2.b4ed513e.chunk.js",
     "static/css/main.e4afada5.chunk.css",
     "static/js/main.7c2675e0.chunk.js"
